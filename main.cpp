@@ -12,6 +12,7 @@ int main()
 {
     int index = 1;
 
+    /// Заполнение матрицы
     for (int lap = 0; lap <= round(N/2); lap++)
     {
         for (int i = lap; i < N - lap; i++)
